@@ -1,0 +1,101 @@
+        body {
+            margin: 0;
+        }
+        
+        p {
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+        }
+        
+        .headerContainer {
+            background-image: url(../images/landscape-4k-bliss-windows-xp-wallpaper-preview.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 0px;
+        }
+        
+        .leahPic {
+            width: 300px;
+        }
+        
+        #folderContainer {
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 5%;
+            height: auto;
+        }
+        
+        .headerText {
+            text-align: center;
+            color: darkorchid;
+            font-family: PT Sans;
+            margin-bottom: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        
+        .navButton {
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        
+        .plantgif {
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        
+        .navButton:hover {
+            transform: scale(1.5);
+            cursor: pointer;
+        }
+        
+        .grid-container {
+            padding: 5%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            justify-items: center;
+        }
+        
+        .gridItem1 {
+            display: grid;
+            width: 50%;
+            height: 50%;
+        }
+        
+        .caseStudyImage {
+            width: 100%;
+            height: auto;
+        }
+        
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0px;
+        }
+        
+        li {
+            padding: 10px;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: lightblue;
+            align-items: center;
+            padding-right: 4%;
+            padding-left: 4%;
+        }
